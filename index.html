@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Symphony - Music App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+
+    <ul class="ul-list">
+      <div class="lits">
+        <li class="brand"><img src="logo.png" alt="Symphony">Symphony</li>
+      </div>
+      <div class="lit">
+        <li>Home</li>
+        <li>About</li>
+      </div>
+    </ul>
+  </nav>
+
+  <div class="container">
+     <!-- <img class="bgImg" src="bg.jpg" alt=""> -->
+    <div class="songList"></div>
+    <h1>My Playlist</h1>
+    <div class="songItemContainer">
+      <div class="songItem">
+        <img class="imgSize" src="covers/1.jpg" alt="1">
+        <span class="songName">Attention</span>
+        <span class="songListPlay">
+          <span class="time"> <i id ="0" class=" songItemPlay fa-solid fa-play fa-lg playPointer" style=color:black></i></span>
+        </span>
+      </div>
+
+      <div class="songItem">
+        <img class="imgSize" src="covers/2.jpg" alt="1">
+        <span class="songName">Freeverse Feast</span>
+        <span class="songListPlay">
+          <span class="time"> <i id ="1" class=" songItemPlay fa-solid fa-play fa-lg playPointer masterPlay" style=color:black></i></span>
+        </span>
+      </div>
+
+      <div class="songItem">
+        <img class="imgSize" src="covers/3.jpg" alt="1">
+        <span class="songName">Fursat</span>
+        <span class="songListPlay">
+          <span class="time"> <iid ="2" class=" songItemPlay fa-solid fa-play fa-lg playPointer" style=color:black></i></span>
+        </span>
+      </div>
+
+      <div class="songItem">
+        <img class="imgSize" src="covers/4.jpg" alt="1">
+        <span class="songName">Locked Away</span>
+        <span class="songListPlay">
+          <span class="time"> <i id ="3" class=" songItemPlay fa-solid fa-play fa-lg playPointer" style=color:black></i></span>
+        </span>
+      </div>
+
+      <div class="songItem">
+        <img class="imgSize" src="covers/5.jpg" alt="1">
+        <span class="songName">Rangdari</span>
+        <span class="songListPlay">
+          <span class="time"><i id ="4" class=" songItemPlay fa-solid fa-play fa-lg playPointer" style=color:black></i></span>
+        </span>
+      </div>
+
+      <div class="songItem">
+        <img class="imgSize" src="covers/6.jpg" alt="1">
+        <span class="songName">Sholay</span>
+        <span class="songListPlay">
+          <span class="time"> <i id ="5" class=" songItemPlay fa-solid fa-play fa-lg playPointer" style=color:black></i></span>
+        </span>
+      </div>
+
+      <div class="songItem">
+        <img class="imgSize" src="covers/7.jpg" alt="1">
+        <span class="songName">Stand By You</span>
+        <span class="songListPlay">
+          <span class="time"><iid ="6" class=" songItemPlay fa-solid fa-play fa-lg playPointer" style=color:black></i></span>
+        </span>
+      </div>
+
+      <div class="songItem">
+        <img class="imgSize" src="covers/8.jpg" alt="1">
+        <span class="songName">The Chainsmokers</span>
+        <span class="songListPlay">
+          <span class="time"><i id ="7" class=" songItemPlay fa-solid fa-play fa-lg playPointer" style=color:black></i></span>
+        </span>
+      </div>
+
+
+
+    </div>
+    <div class="songBanner"></div>
+  </div>
+  <br>
+  <!-- <br> for space -->
+  <br>
+
+  <div class="bottom">
+    <div class="slidecontainer">
+  <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+  </div>
+    <div class="icons">
+      <!--fontawesome icons-->
+      <i class="fa-solid fa-backward fa-xl" id="previous"></i>
+      <i class="fa-solid fa-play fa-2xl" id="masterPlay" style=color:white ></i>
+      <i class="fa-solid fa-forward fa-xl" id="next"></i>
+    </div>
+   <div class="songInfo">
+     <img src="playing.gif" width="42px" alt="" id="gif">
+     <span id="masterSongName">Symphony</span>
+
+   </div>
+  </div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+<script src=" https://kit.fontawesome.com/24558a6e0b.js" crossorigin="anonymous"></script>
+<!-- <script src="script.js" charset="utf-8"></script> -->
+
+
+</html>

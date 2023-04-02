@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Roboto:wght@300;400&display=swap');
+
+body {
+  background-color: antiquewhite;
+}
+h1{
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: 'Ubuntu', sans-serif;
+  font-color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+
+.brand img {
+  width: 60px;
+  padding: 0 8px;
+  /*0 on top bottom and 8px on left right*/
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lit {
+  width: 30px;
+  margin-right: 100px;
+  display: flex;
+  justify-content:
+}
+
+.lits {
+  display: flex;
+  justify-content:
+}
+
+.ul-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  min-height: 60vh;
+  background-color: black;
+  color: hotpink;
+  font-family: 'Varela Round', sans-serif;
+  /* display: flex; */
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 12px;
+  /* padding: 10px; */
+  background-image: url('bg.jpg');
+  background-size:cover;
+ box-shadow: 3px 3px 3px black;
+
+}
+.
+
+#myProgressBar {
+  width: 100vw;
+  text-align: center;
+}
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 70%; /* Full-width */
+  height: 10px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .01s; /* 0.2 seconds transition on hover */
+  transition: opacity .01s;
+  margin: 0 224px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 10px;
+  width: 25px; /* Set a specific slider handle width */
+  height: 23px; /* Slider handle height */
+  background: hotpink; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+.icons {
+  margin-top: 25px;
+  cursor: pointer;
+}
+.songItemContainer{
+  margin-bottom: 100px;
+}
+.songItem{
+  /* cursor:pointer; */
+  height:2rem;
+  display: flex;
+  background-color: white;
+  width: 25%;
+  margin: 10px 0 0 5px;  /*top bot right left */
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.songItem:hover {
+  background-color: #;
+}
+.time{
+  margin-left: 20px;
+}
+.songListPlay{
+  /* margin:auto; */
+  padding: 2px;
+}
+.imgSize{
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.playPointer{
+  cursor:pointer;
+}
+.songInfo{
+  position: absolute;
+ left: 15vw;
+ font-family: 'Varela Round', sans-serif;
+ box-shadow: box-shadow: 13px 3px 3px black;
+}
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
